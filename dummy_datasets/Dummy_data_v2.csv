@@ -1,0 +1,11 @@
+Height,Gender, Grade,Passed
+5.0, T, C,1
+5.0, F, C, 0
+5.0, T, B,1
+4.0, T,A,1
+6.0, T, C,1
+7.0,M,A,1
+5.0, T, B, 0
+5.0, F, B,1
+4.0, F, B,1
+6.0,M, C,1
