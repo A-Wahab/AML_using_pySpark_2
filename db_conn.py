@@ -46,14 +46,13 @@ def log_in():
             with open('session/user.txt', 'w') as file:
                 file.write(str(credentials[0]))
             st.success('Logged in successfully!')
-            time.sleep(2)
+            time.sleep(1)
             return True
 
 
 def sign_out():
     os.remove('session/user.txt')
     update_permits(log=True, reg=False, start=False)
-    # close_conn()
 
 
 def exists(credentials):
